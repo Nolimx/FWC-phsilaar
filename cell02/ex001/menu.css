@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+
+/* Menu */
+
+nav {
+    background: white;
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px 40px;
+
+    box-shadow: 0 2px 8px #999;
+}
+
+
+/* SNCF */
+
+h2 {
+    color: #e30613;
+
+    margin-right: 50px;
+}
+
+
+/* Main menu */
+
+ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+
+li {
+    position: relative;
+}
+
+
+li a {
+    display: block;
+
+    padding: 15px 20px;
+
+    text-decoration: none;
+
+    color: #222;
+}
+
+
+li a:hover {
+    background: #e30613;
+    color: white;
+}
+
+
+/* Dropdown */
+
+.dropdown-menu {
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    background: white;
+
+    min-width: 160px;
+
+    box-shadow: 0 3px 8px #999;
+}
+
+
+/* Show dropdown when mouse is over */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* Dropdown items */
+
+.dropdown-menu li {
+    width: 100%;
+}
